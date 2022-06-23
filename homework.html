@@ -65,6 +65,7 @@
                 url: "http://spartacodingclub.shop/sparta_api/weather/seoul",
                 data: {},
                 success: function (response) {
+                    console.log(response)
                     let tmp = response['temp']
                     $('#temp').text(tmp)
                 }
